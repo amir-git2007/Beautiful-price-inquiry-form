@@ -1,0 +1,35 @@
+@font-face {
+    font-family: anjoman-bold;
+    src: url(Anjoman-Bold.ttf);
+}
+@font-face {
+    font-family: anjoman-regular;
+    src: url(Anjoman-Regular.ttf);
+}
+@font-face {
+    font-family: anjoman-light;
+    src: url(Anjoman-Light.ttf);
+}
+@font-face {
+    font-family: dana-bold;
+    src: url(dana-fanum-bold.ttf);
+}
+@font-face {
+    font-family: dana-regular;
+    src: url(dana-fanum-regular.ttf);
+}
+body{
+    font-family: dana-regular;
+    direction: rtl;
+}
+.github{
+    position: fixed; 
+    background-color: rgba(241, 249, 249, 0);
+    top: 90%;
+}
+.website{
+    position: fixed; 
+    background-color: rgba(241, 249, 249, 0);
+    top: 90%;
+    right: 75px;
+}

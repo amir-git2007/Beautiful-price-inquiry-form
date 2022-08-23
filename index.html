@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./bootstrapp file/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Document</title>
+</head>
+<body class="container-fluid">
+    <section class="header"> </section>
+    <section class="main">
+        <div class="row">
+            <div class="col">
+                <form class="row g-2 border my-3 p-3" style="border-radius: 4px;">
+                    <h2> فرم استعلام قیمت طراحی سایت </h2>
+                    <div class="mb-3 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <label for="firstLastName" class="form-label">* نام و نام خانوادگی :</label>
+                        <input type="text" placeholder="نام و نام خانوادگی خود را وارد کنید" class="form-control" id="firstLastName" aria-describedby="help" required min="5" max="45">
+                        <div id="help" class="form-text">نام و نام خانوادگی شما نباید از 45 حرف بیشتر باشد</div>
+                      </div>
+                      <div class="mb-3 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                      <label for="telnumber" class="form-label">* شماره تلفن :</label>
+                      <div class="input-group" dir="ltr">
+                        <span class="input-group-text" id="telnumber">+98</span>
+                        <input dir="rtl" type="tel" class="form-control" id="telnumber" placeholder="شماره تلفن خود را وارد کنید" required max="10">                  
+                        </div>
+                        <div class="form-text"> در اول شما تلفن خود از پیشوندی استفاده نکنید</div>
+                      </div>
+                      <div class="mb-3 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <label for="telnumber" class="form-label">* ادرس ایمیل :</label>
+                        <div class="input-group" dir="ltr">
+                            <span class="input-group-text" id="telnumber">@</span>
+                            <input dir="rtl" type="tel" class="form-control" id="telnumber" placeholder="ادرس ایمیل خود را وارد کنید" required>                  
+                        </div>
+                        <div class="form-text">از نشانه @ در وارد کردن ایمیل خود استفاده کنید</div>
+                      </div>
+                      <div class="mb-3 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <label for="telnumber" class="form-label">کسب و کار شما :</label>
+                        <input type="tel" class="form-control" id="telnumber" placeholder="حوزه کسب و کار خود را وارد کنید">           
+                        <div class="form-text">این مورد اختیاری است</div>
+                      </div>
+                      <div class="mb-3 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <label style="display: block;">* نوع وبسایت شما :</label>
+                        <div class="py-2">
+                        <input class="form-check-input" style="margin-top: 6px;" type="radio" name="radio" id="radio1" required>
+                       <div dir="ltr" class="form-check mt-1" style="display: inline-block; max-width: max-content;">
+                        <label class="form-check-label" style="margin-right: 2px; margin-left: -15px;" for="radio1">فروشگاهی</label>
+                       </div>
+                       <input class="form-check-input" style="margin-top: 6px;" type="radio" name="radio" id="radio2" required>
+                       <div dir="ltr" class="form-check mt-1" style="display: inline-block; max-width: max-content;">
+                        <label class="form-check-label" style="margin-right: 2px; margin-left: -15px;" for="radio2">شرکتی</label>
+                       </div>
+                       <input class="form-check-input" style="margin-top: 6px;" type="radio" name="radio" id="radio3" required>
+                       <div dir="ltr" class="form-check mt-1" style="display: inline-block; max-width: max-content;">
+                        <label class="form-check-label" style="margin-right: 2px; margin-left: -15px;" for="radio3">خدماتی</label>
+                       </div>
+                       </div>
+                       <div class="form-text">نوع وبسایت بستگی به حوزه کار شما دارد</div>
+                    </div>
+                    <div class="mb-3 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                      <label style="display: block;">* تعداد صفحات مورد نیاز :</label>
+                      <div class="py-2">
+                      <input class="form-check-input" style="margin-top: 6px;" type="radio" name="radio2" id="radio1" required>
+                     <div dir="ltr" class="form-check mt-1" style="display: inline-block; max-width: max-content;">
+                      <label class="form-check-label" style="margin-right: 2px; margin-left: -15px;" for="radio1">1 - 5</label>
+                     </div>
+                     <input class="form-check-input" style="margin-top: 6px;" type="radio" name="radio2" id="radio2" required>
+                     <div dir="ltr" class="form-check mt-1" style="display: inline-block; max-width: max-content;">
+                      <label class="form-check-label" style="margin-right: 2px; margin-left: -15px;" for="radio2">5 - 15</label>
+                     </div>
+                     <input class="form-check-input" style="margin-top: 6px;" type="radio" name="radio2" id="radio3" required>
+                     <div dir="ltr" class="form-check mt-1" style="display: inline-block; max-width: max-content;">
+                      <label class="form-check-label" style="margin-right: 2px; margin-left: -15px;" for="radio3">15 - 30</label>
+                     </div>
+                     </div>
+                     <div class="form-text">برای استعلام دقیق تر تعداد صفحات خود را انتخاب کنید</div>
+                     </div>                     
+                       <div class="mb-3 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <label for="telnumber" class="form-label">* تکنولوژی مورد استفاده :</label>
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option selected>انتخاب تکنولوژی</option>
+                            <optgroup label="cms">
+                            <option value="1">wordpress</option>
+                            <option value="2">joomla</option>
+                            <option value="3">drupal</option>
+                            </optgroup>
+                            <optgroup label="another">
+                                <option value="1">html & css</option>
+                                <option value="2">python</option>
+                                <option value="3">php</option>
+                                </optgroup>
+                          </select>
+                          <div class="form-text">وبسایت شما توسط این تکنولوژی ساخته می شود</div>
+                      </div>
+                      <div class="mb-3 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <label for="telnumber" class="form-label"> بودجه مورد نظر :</label>
+                        <div class="input-group" dir="ltr">
+                            <span class="input-group-text" id="telnumber">﷼</span>
+                            <input dir="rtl" type="tel" class="form-control" id="telnumber" placeholder="مبلغ بودجه خود را وارد کنید" required>                  
+                        </div>
+                        <div class="form-text">مبلغ بودجه خود را حتما به ریال وارد کنید</div>
+                      </div>
+                      <div class="github" >
+                        <a href="https://github.com/amir-git2007" target="_blank">
+                        <img src="./icons8_github.svg" alt="" width="45">
+                        </a>
+                      </div>
+                      <div class="website" >
+                        <a href="https://www.amportfolio.epizy.com" target="_blank">
+                        <img src="./icons8_website.svg" alt="" width="45">
+                        </a>
+                      </div>
+                      <button type="submit" class="btn btn-primary mt-4">ارسال اطلاعات</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="footer"></section>
+    <script src="./bootstrapp file/bootstrap.bundle.min.js"></script>
+</body>
+</html>
